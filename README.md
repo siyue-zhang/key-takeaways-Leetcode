@@ -12,3 +12,12 @@ Python:
 * To get last bit of n: ``n & 1``
 * Left bitwise shift: ``n << 1``, right bitwise shift: ``n >> 1``
 * Bit operator has lower precedence than addition: ``ans = (ans << 1) + (n&1)``   
+
+### No.231 [Power of Two](https://leetcode.com/problems/power-of-two/)
+
+Return if the integer is a power of two.
+* Bit-wise: 100 - 1 = 011
+* 100 & 011 = 000
+* ``n & n-1``
+
+
