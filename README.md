@@ -21,3 +21,10 @@ Return if the integer is a power of two.
 * ``n & n-1``
 
 
+### No. 258 [Add Digits](https://leetcode.com/problems/add-digits/)
+
+38 --> 3 + 8 --> 11
+* 10 -> 1, 11 -> 2, 12 -> 3, ..., 19 -> 1, 20 -> 2
+* 9 value a cycle
+* Special case: 0 -> 0
+
