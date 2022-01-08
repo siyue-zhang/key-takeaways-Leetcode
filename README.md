@@ -1,5 +1,7 @@
 # key-takeaways-Leetcode
 
+![](https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png)
+
 ### No.190 [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
 Reverse bits of a given 32 bits unsigned integer.
