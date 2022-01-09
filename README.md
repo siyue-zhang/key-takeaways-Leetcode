@@ -28,3 +28,20 @@ Return if the integer is a power of two.
 * 9 value a cycle
 * Special case: 0 -> 0
 
+### No. 459 [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
+
+Given a string ``s``, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
+
+Input: s = "abab" | Output: true
+
+s = P * k, s_fold = s[1:] + s[:-1], s_fold = Head + P * (2k-2) + Tail
+
+if k = 1, no repeated pattern.
+
+if k > 1, then 2k-2 >= k. We can find s in s_fold.
+
+``s in (2*s)[1:-1]``
+
+
+
+
