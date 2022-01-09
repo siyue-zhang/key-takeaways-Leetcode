@@ -2,6 +2,25 @@
 
 ![](https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png)
 
+### No.18 [4Sum](https://leetcode.com/problems/4sum/)
+
+Input: nums = [1,0,-1,0,-2,2], target = 0 | Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+
+* Sort nums
+* Convert 4Sum to 2Sum problem by i, j itereations
+* Use left and right pointers for 2Sum search
+```
+    while l < r:
+        if nums[l] + nums[r] == remain:
+            ans.add((nums[i], nums[j], nums[l], nums[r]))
+            l += 1
+            r -= 1
+        elif nums[l] + nums[r] > remain:
+            r -= 1
+        else:
+            l += 1
+```
+
 ### No.190 [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
 Reverse bits of a given 32 bits unsigned integer.
